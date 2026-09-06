@@ -1,0 +1,43 @@
+name: portfolio_flutter
+description: Portfolio de développeur Mobile & Logiciel, interface inspirée des plateformes de streaming un peu comme Netflix.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  url_launcher: ^6.3.2
+  http: ^1.6.0
+  # Ajouter plus tard si besoin (partie "back") :
+  # http: ^1.2.0            -> appels API vers un backend Flutter/Dart (ex: Serverpod, Dart Frog)
+  # provider / riverpod     -> gestion d'état si l'app grandit
+  # cached_network_image    -> pour charger les vraies images de projets à distance
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # dossiers d'assets 
+  assets:
+    - assets/images/projects/
+    - assets/images/projects/FlowDetectX/
+    - assets/images/projects/Livo/
+    - assets/images/backdrops/
+    - assets/images/profile/
+    - assets/icons/
+
+  # ajout plus tard de police custom plus tard (ex: Poppins, Inter) :
+  # fonts:
+  #   - family: Inter
+  #     fonts:
+  #       - asset: assets/fonts/Inter-Regular.ttf
+  #       - asset: assets/fonts/Inter-Bold.ttf
+  #         weight: 700
