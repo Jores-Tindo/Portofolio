@@ -5,6 +5,7 @@ import '../../../core/theme/app_text_styles.dart';
 import '../../../core/utils/responsive.dart';
 import '../../../data/models/project_model.dart';
 import 'screenshot_viewer_screen.dart';
+import '../../widgets/demo_video_player.dart';
 
 /// Fiche détaillée d'un projet, avec un grand backdrop en tête, la
 /// description complète, les technologies utilisées, une galerie de
@@ -187,6 +188,13 @@ class ProjectDetailScreen extends StatelessWidget {
                       ),
                     );
                   }),
+                ],
+
+                if (project.demoVideoPath != null) ...[
+                  const SizedBox(height: 28),
+                  Text('Démonstration', style: AppTextStyles.sectionTitle),
+                  const SizedBox(height: 12),
+                  DemoVideoPlayer(videoPath: project.demoVideoPath!),
                 ],
                 const SizedBox(height: 40),
               ]),

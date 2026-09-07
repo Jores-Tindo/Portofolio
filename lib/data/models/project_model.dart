@@ -26,6 +26,7 @@ class ProjectModel {
 
   final String? githubUrl;
   final String? storeUrl; // Play Store / App Store / site web du logiciel
+  final String? demoVideoPath;
 
   const ProjectModel({
     required this.id,
@@ -40,5 +41,6 @@ class ProjectModel {
     this.screenshotPaths = const [],
     this.githubUrl,
     this.storeUrl,
+    this.demoVideoPath,
   });
 }

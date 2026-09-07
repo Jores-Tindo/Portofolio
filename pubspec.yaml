@@ -12,6 +12,7 @@ dependencies:
   cupertino_icons: ^1.0.6
   url_launcher: ^6.3.2
   http: ^1.6.0
+  video_player: ^2.14.0
   # Ajouter plus tard si besoin (partie "back") :
   # http: ^1.2.0            -> appels API vers un backend Flutter/Dart (ex: Serverpod, Dart Frog)
   # provider / riverpod     -> gestion d'état si l'app grandit
@@ -32,6 +33,7 @@ flutter:
     - assets/images/projects/Livo/
     - assets/images/backdrops/
     - assets/images/profile/
+    - assets/videos/
     - assets/icons/
 
   # ajout plus tard de police custom plus tard (ex: Poppins, Inter) :
