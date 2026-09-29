@@ -33,7 +33,7 @@ flutter:
     - assets/images/projects/Livo/
     - assets/images/backdrops/
     - assets/images/profile/
-    - assets/videos/
+    - assets/videos/FlowDetectX/
     - assets/icons/
 
   # ajout plus tard de police custom plus tard (ex: Poppins, Inter) :

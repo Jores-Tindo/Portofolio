@@ -49,6 +49,7 @@ class PortfolioRepository {
           'assets/images/projects/FlowDetectX/Alertes.png',
           'assets/images/projects/FlowDetectX/Rules_constructor.png'
         ],
+        demoVideoPath: 'assets/videos/FlowDetectX_demo.mp4',
         githubUrl: null,
         storeUrl: null,
       ),
@@ -74,6 +75,7 @@ class PortfolioRepository {
           'assets/images/projects/Livo/choix_role.png',
           'assets/images/projects/Livo/acceuil_client.png',
         ],
+        demoVideoPath: 'assets/videos/Livo_demo.mp4',
         githubUrl: '',
       ),
     ];
