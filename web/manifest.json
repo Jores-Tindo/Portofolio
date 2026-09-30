@@ -1,11 +1,11 @@
 {
-    "name": "mon_portofolio",
-    "short_name": "mon_portofolio",
+    "name": "Portfolio - Jorès TINDO",
+    "short_name": "Portfolio - Jorès",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "A portfolio showcasing the work and projects of Jorès TINDO, a mobile and software developer.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
