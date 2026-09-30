@@ -103,18 +103,27 @@ class _HomeScreenState extends State<HomeScreen> {
                 children: [
                   Text('Compétences', style: AppTextStyles.sectionTitle),
                   const SizedBox(height: 8),
-                  GridView.count(
-                    crossAxisCount: responsive.isDesktop
-                        ? 3
-                        : (responsive.isTablet ? 2 : 1),
-                    shrinkWrap: true,
-                    physics: const NeverScrollableScrollPhysics(),
-                    crossAxisSpacing: 20,
-                    mainAxisSpacing: 20,
-                    childAspectRatio: 1.3,
-                    children: skillCategories
-                        .map((cat) => SkillCategoryCard(category: cat))
-                        .toList(),
+                  LayoutBuilder(
+                    builder: (context, constraints) {
+                      final int columns = responsive.isDesktop
+                          ? 3
+                          : (responsive.isTablet ? 2 : 1);
+                      const double spacing = 20;
+                      final double cardWidth =
+                          (constraints.maxWidth - spacing * (columns - 1)) /
+                              columns;
+
+                      return Wrap(
+                        spacing: spacing,
+                        runSpacing: spacing,
+                        children: skillCategories
+                            .map((cat) => SizedBox(
+                                  width: cardWidth,
+                                  child: SkillCategoryCard(category: cat),
+                                ))
+                            .toList(),
+                      );
+                    },
                   ),
                 ],
               ),

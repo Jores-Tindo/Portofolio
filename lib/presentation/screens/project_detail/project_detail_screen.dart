@@ -68,16 +68,17 @@ class ProjectDetailScreen extends StatelessWidget {
                 Text(project.title,
                     style: AppTextStyles.heroTitle.copyWith(fontSize: 26)),
                 const SizedBox(height: 8),
-                Row(
+                Wrap(
+                  spacing: 6,
+                  runSpacing: 6,
+                  crossAxisAlignment: WrapCrossAlignment.center,
                   children: [
                     Icon(Icons.calendar_today_rounded,
                         size: 14, color: AppColors.textMuted),
-                    const SizedBox(width: 6),
                     Text('${project.year}', style: AppTextStyles.caption),
-                    const SizedBox(width: 16),
+                    const SizedBox(width: 10),
                     Icon(Icons.category_outlined,
                         size: 14, color: AppColors.textMuted),
-                    const SizedBox(width: 6),
                     Text(project.category.label, style: AppTextStyles.caption),
                   ],
                 ),

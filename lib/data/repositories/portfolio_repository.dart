@@ -49,7 +49,7 @@ class PortfolioRepository {
           'assets/images/projects/FlowDetectX/Alertes.png',
           'assets/images/projects/FlowDetectX/Rules_constructor.png'
         ],
-        demoVideoPath: 'assets/videos/FlowDetectX_demo.mp4',
+        demoVideoPath: 'assets/videos/FlowDetectX/Demo_FlowDetectX.mp4',
         githubUrl: null,
         storeUrl: null,
       ),
