@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://TON-DOMAINE.com/sitemap.xml
+Sitemap: https://jores-tindo-portfolio.vercel.app/sitemap.xml
