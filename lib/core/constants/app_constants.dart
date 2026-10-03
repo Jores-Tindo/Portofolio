@@ -11,7 +11,7 @@ class AppConstants {
 
   static const String githubUrl = 'https://github.com/Jores-Tindo';
   static const String linkedinUrl =
-      'https://www.linkedin.com/in/jores-tindo-a02571343';
+      'https://www.linkedin.com/in/jor%C3%A8s-tindo-a02571343/';
   static const String emailContact = 'joresdev@gmail.com';
   static const String facebookUrl = 'https://www.facebook.com/jj.311740';
   static const String whatsappUrl = 'https://wa.me/22961870691';
