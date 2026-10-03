@@ -76,7 +76,8 @@ class PortfolioRepository {
           'assets/images/projects/Livo/acceuil_client.png',
         ],
         demoVideoPath: 'assets/videos/Livo_demo.mp4',
-        githubUrl: '',
+        githubUrl: 'https://github.com/Jores-Tindo/Livo',
+        storeUrl: '',
       ),
     ];
   }
