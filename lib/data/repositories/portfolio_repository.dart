@@ -50,7 +50,7 @@ class PortfolioRepository {
           'assets/images/projects/FlowDetectX/Rules_constructor.png'
         ],
         demoVideoPath: 'assets/videos/FlowDetectX/Demo_FlowDetectX.mp4',
-        githubUrl: null,
+        githubUrl: 'https://github.com/Jores-Tindo/FlowDetectX',
         storeUrl: null,
       ),
       ProjectModel(
