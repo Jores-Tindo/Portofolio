@@ -6,6 +6,7 @@ import '../../../core/utils/responsive.dart';
 import '../../../data/models/project_model.dart';
 import 'screenshot_viewer_screen.dart';
 import '../../widgets/demo_video_player.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 /// Fiche détaillée d'un projet, avec un grand backdrop en tête, la
 /// description complète, les technologies utilisées, une galerie de
@@ -91,8 +92,17 @@ class ProjectDetailScreen extends StatelessWidget {
                   children: [
                     if (project.githubUrl != null)
                       OutlinedButton.icon(
-                        onPressed: () {
+                        onPressed: () async {
                           // TODO: ouvrir project.githubUrl (ex: package url_launcher)
+                          final Uri url = Uri.parse(project.githubUrl!);
+                          if (await canLaunchUrl(url)) {
+                            await launchUrl(url,
+                                mode: LaunchMode.externalApplication);
+                          } else {
+                            ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+                                content: Text(
+                                    "Impossible d'ouvrir le lien : ${project.githubUrl}")));
+                          }
                         },
                         icon: const Icon(Icons.code_rounded, size: 18),
                         label: const Text('Code source'),

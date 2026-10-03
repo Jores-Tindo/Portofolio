@@ -50,7 +50,7 @@ class PortfolioRepository {
           'assets/images/projects/FlowDetectX/Rules_constructor.png'
         ],
         demoVideoPath: 'assets/videos/FlowDetectX/Demo_FlowDetectX.mp4',
-        githubUrl: 'https://github.com/Jores-Tindo/FlowDetectX',
+        githubUrl: "https://github.com/Jores-Tindo/FlowDetectX",
         storeUrl: null,
       ),
       ProjectModel(
@@ -76,7 +76,7 @@ class PortfolioRepository {
           'assets/images/projects/Livo/acceuil_client.png',
         ],
         demoVideoPath: 'assets/videos/Livo_demo.mp4',
-        githubUrl: 'https://github.com/Jores-Tindo/Livo',
+        githubUrl: "https://github.com/Jores-Tindo/Livo",
         storeUrl: '',
       ),
     ];
