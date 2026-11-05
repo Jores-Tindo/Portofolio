@@ -40,16 +40,16 @@ class PortfolioRepository {
         ],
         year: 2026,
         // TODO: image poster réelle du projet
-        posterImagePath: 'assets/images/projects/FlowDetectX/Acceuil.png',
+        posterImagePath: 'assets/images/projects/FlowDetectX/Acceuil.webp',
         // TODO: image backdrop réelle du projet
-        backdropImagePath: 'assets/images/backdrops/AcceuilFlowDetectX.png',
+        backdropImagePath: 'assets/images/backdrops/AcceuilFlowDetectX.webp',
         screenshotPaths: const [
-          'assets/images/projects/FlowDetectX/Acceuil.png',
-          'assets/images/projects/FlowDetectX/Dashboard.png',
-          'assets/images/projects/FlowDetectX/Alertes.png',
-          'assets/images/projects/FlowDetectX/Rules_constructor.png'
+          'assets/images/projects/FlowDetectX/Acceuil.webp',
+          'assets/images/projects/FlowDetectX/Dashboard.webp',
+          'assets/images/projects/FlowDetectX/Alertes.webp',
+          'assets/images/projects/FlowDetectX/Rules_constructor.webp'
         ],
-        demoVideoPath: 'assets/videos/FlowDetectX/Demo_FlowDetectX.mp4',
+        demoVideoPath: 'assets/videos/FlowDetectX/Demo_small.mp4',
         githubUrl: "https://github.com/Jores-Tindo/FlowDetectX",
         storeUrl: null,
       ),
@@ -68,14 +68,13 @@ class PortfolioRepository {
         category: ProjectCategory.enCours,
         techStack: const ['Flutter', 'Firebase', 'Riverpod', 'API'],
         year: 2026,
-        posterImagePath: 'assets/images/projects/Livo/creation_compte.png',
-        backdropImagePath: 'assets/images/backdrops/acceuilLivo.png',
+        posterImagePath: 'assets/images/projects/Livo/creation_compte.webp',
+        backdropImagePath: 'assets/images/backdrops/acceuilLivo.webp',
         screenshotPaths: const [
-          'assets/images/projects/Livo/creation_compte.png',
-          'assets/images/projects/Livo/choix_role.png',
-          'assets/images/projects/Livo/acceuil_client.png',
+          'assets/images/projects/Livo/creation_compte.webp',
+          'assets/images/projects/Livo/choix_role.webp',
+          'assets/images/projects/Livo/acceuil_client.webp',
         ],
-        demoVideoPath: 'assets/videos/Livo_demo.mp4',
         githubUrl: "https://github.com/Jores-Tindo/Livo",
         storeUrl: '',
       ),

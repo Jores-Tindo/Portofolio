@@ -30,7 +30,7 @@ class HeroBanner extends StatelessWidget {
         children: [
           // IMAGE D'ARRIERE PLAN DE LA BANNIERE (BACKDROP DU PROJET MIS EN AVANT)
           Image.asset(
-            'assets/images/backdrops/hero_backdrop.jpg',
+            'assets/images/backdrops/hero_backdrop.webp',
             fit: BoxFit.cover,
           ),
           // Dégradé pour lisibilité du texte par-dessus l'image de fond
